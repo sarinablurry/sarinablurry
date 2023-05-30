@@ -1,0 +1,13 @@
+int count101,count102;
+Console.Write("Enter count of student class101:");
+count101=int.Parse(Console.ReadLine());
+Console.Write("Enter count of student class102:");
+count102=int.Parse(Console.ReadLine());
+Console.WriteLine("count of student class101={0} ",count101--);
+Console.WriteLine("count101={0} ",count101);
+Console.WriteLine("count of student class102={0} ",count102++);
+Console.WriteLine("count102={0} ",count102);
+Console.ForgroundColor=ConsoleColor.magenta;
+Console.Readkey();
+
+
