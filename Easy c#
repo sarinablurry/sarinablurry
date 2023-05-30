@@ -1,0 +1,35 @@
+-Console.WriteLine("Enter your device");
+string x=Console.ReadLine();
+switch(x)
+{
+Case"keyboard":
+case"Mouse":
+case"scanner":
+Console.WriteLine("{0}is input device",x);
+break;
+case"monitor:
+case"printer":
+case"Headphone":
+Console.WriteLine("{0} is output device",x);
+break;
+case"modem":
+case"network card":
+case"audio card":
+Console.WriteLine("{0} is both input-output devices",x);
+break;
+default;
+Console.WriteLine("unknown");
+break;
+}
+Console.Readkey();
+
+
+- 
+- 
+- 
+- 📫 
+
+<!---
+sarinablurry/sarinablurry is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
