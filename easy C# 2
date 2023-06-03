@@ -1,0 +1,15 @@
+long km,m;
+string n;
+
+Console.Write("Enter your cities nam:");
+nam=string.Parse(Console.ReadLine());
+
+Console.Write("Enter the distance form your location to newyork in km:");
+km=long.Pase(Console.ReadLine());
+
+m=km*1000;
+Console.WriteLine("your distance from{0} is{1} iu meters,n,m);
+
+Cnsole.Readkey();
+
+
