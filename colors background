@@ -1,0 +1,55 @@
+Console.WriteLine("What's your favorite Color?");
+Console.WriteLine("[r]red");
+Console.WriteLine("[b}black");
+Console.WriteLine("[g}green");
+Console.WriteLine("[c]cyan");
+Console.WriteLine("[w]white");
+Console.WriteLine("[y]yellow");
+Console.WriteLine("[m]magenta");
+Console.WriteLine("[d]Darkblue");
+
+char choice=char.Parse(Console.ReadLine());
+
+switch (choice)
+{
+case'r':
+Console.BackgroundColor=ConsoleColor.Red;
+Console.Clear();
+break;
+case'b':
+Console.BackgroundColor=ConsoleColor.Black;
+Console.Clear();
+break;
+case'g':
+Console.BackgroundColor=ConsoleColor.Green;
+Console.Clear();
+break;
+default:
+case 'c':
+Console.BackgroundColor=ConsoleColor.Cyan;
+Console.Clear();
+break;
+case'w':
+Console.BackgroundColor=ConsoleColor.White;
+Console.Clear();
+break;
+case'y':
+Console.BackgroundColor=ConsoleColor.Yellow;
+Console.Clear();
+break;
+case'm':
+Console.BackgroundColor=ConsoleColor.magenta;
+Console.Clear();
+break
+case 'd':
+Console.BackgroundColor=ConsoleColor.Darkblue;
+Console.Clear();
+break
+default:
+
+}
+onsole.Readkey();
+
+
+
+
