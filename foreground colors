@@ -1,0 +1,41 @@
+Console.WriteLine("What's your favorite Color?");
+
+Console.WriteLine("[r]Red");
+Console.WriteLine("[g]Green");
+Console.WriteLine("[b]Blue");
+Console.WriteLine("[w]White");
+Console.WriteLine("[y]Yellow");
+
+Console.Write("Enter your choice");
+
+
+char choice=char.Parse(Console.ReadLine());
+
+switch(choice)
+{
+case'r':
+Console.ForegroundColor=ConsoleColor.Red;
+Console.WriteLine("RED");
+break;
+case'g':
+Console.ForegroundColor=ConsoleColor.Green;
+Console.WriteLine("GREEN");
+break;
+case'b':
+Console.ForegroundColor=ConsoleColor.Blue;
+Console.WriteLine("BLUE");
+break;
+case "w":
+Console.ForegroundColor=ConsoleColor.White;
+Console.WriteLine("WHITE");
+break;
+case 'y':
+Console.ForegroundColor=ConsoleColor.Yellow;
+Console.WriteLine("TELLOW");
+break;
+default:
+
+}
+Console.Readkey();
+
+
