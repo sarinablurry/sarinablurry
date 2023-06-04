@@ -24,7 +24,7 @@ case'g':
 Console.BackgroundColor=ConsoleColor.Green;
 Console.Clear();
 break;
-default:
+
 case 'c':
 Console.BackgroundColor=ConsoleColor.Cyan;
 Console.Clear();
@@ -38,16 +38,16 @@ Console.BackgroundColor=ConsoleColor.Yellow;
 Console.Clear();
 break;
 case'm':
-Console.BackgroundColor=ConsoleColor.magenta;
+Console.BackgroundColor=ConsoleColor.Magenta;
 Console.Clear();
-break
+break;
 case 'd':
-Console.BackgroundColor=ConsoleColor.Darkblue;
+Console.BackgroundColor=ConsoleColor.DarkBlue;
 Console.Clear();
 break
-default:
-
 }
+
+
 console.Readkey();
 
 
