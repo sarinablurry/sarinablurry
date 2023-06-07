@@ -1,0 +1,10 @@
+- 👋 Double R,MO,MA;
+Console.WriteLine("Enter Mo");
+- 👀 R=Double.Parse(Console.ReadLine());
+MO=2*R*3.14;
+MA=R*R*3.14;
+- 🌱Console.WriteLine("MO"); 
+- 💞️Console.WriteLine("MA");
+- 📫 Console.Readkey();
+
+
